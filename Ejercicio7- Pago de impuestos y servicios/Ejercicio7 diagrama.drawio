@@ -1,0 +1,97 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Página-1" id="A184KUB1jyb4Cv9v3WxB">
+    <mxGraphModel dx="588" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rgu45SKtBq6scsu9yvi9-1" value="" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="214" y="335" width="400" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rgu45SKtBq6scsu9yvi9-2" target="rgu45SKtBq6scsu9yvi9-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-2" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rgu45SKtBq6scsu9yvi9-4" target="rgu45SKtBq6scsu9yvi9-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rgu45SKtBq6scsu9yvi9-4" target="rgu45SKtBq6scsu9yvi9-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-4" value="Gerente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="760" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rgu45SKtBq6scsu9yvi9-5" target="rgu45SKtBq6scsu9yvi9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-5" value="Encargado" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-10" value="Central" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-11" value="Reaizar pago" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="380" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rgu45SKtBq6scsu9yvi9-13" target="rgu45SKtBq6scsu9yvi9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-19" value="uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rgu45SKtBq6scsu9yvi9-18">
+          <mxGeometry x="0.325" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-13" value="Cobrar factura" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-15" value="Concectarse a la central" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="585" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-20" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;?&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="385" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-22" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rgu45SKtBq6scsu9yvi9-4" target="rgu45SKtBq6scsu9yvi9-5">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="240" y="640" as="sourcePoint" />
+            <mxPoint x="400" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-24" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rgu45SKtBq6scsu9yvi9-15" target="rgu45SKtBq6scsu9yvi9-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="660" as="sourcePoint" />
+            <mxPoint x="620" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rgu45SKtBq6scsu9yvi9-25" target="rgu45SKtBq6scsu9yvi9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-27" value="extends" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rgu45SKtBq6scsu9yvi9-26">
+          <mxGeometry x="0.1045" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-25" value="Verificar vencimientos" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="510" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-28" value="Registrar cobros" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="710" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.262;entryY=0.947;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="rgu45SKtBq6scsu9yvi9-28" target="rgu45SKtBq6scsu9yvi9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-30" value="uses" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rgu45SKtBq6scsu9yvi9-29">
+          <mxGeometry x="-0.5525" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-33" value="&lt;b&gt;Consulta:&lt;/b&gt;&lt;br&gt;En registrar cobros podria&amp;nbsp; a ver un caso de uso extend validar si ya se registro en el dia? o seria algo de los escenarios?" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="890" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rgu45SKtBq6scsu9yvi9-34" value="Ver estadisticas" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="780" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

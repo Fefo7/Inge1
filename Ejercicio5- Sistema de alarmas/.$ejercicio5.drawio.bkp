@@ -84,7 +84,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="REY0FhoWWN9jhffk3lGa-46" value="&lt;b&gt;Consultas:&lt;/b&gt;&lt;br&gt;- Podria llegar a usar un uses para concetarse con la central. Pero como hago para describir los dos escenarios diferentes?&lt;br&gt;seria de un caso de uso sacar dos escenarios diferentes?&lt;div&gt;- En el caso de que este bien este diagrama puede queda un caso de uso asi libre como verificar sensores?&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="REY0FhoWWN9jhffk3lGa-46" value="&lt;b&gt;Consultas:&lt;/b&gt;&lt;br&gt;- Podria llegar a usar un uses para concetarse con la central. Pero como hago para describir los dos escenarios diferentes?&lt;br&gt;seria de un caso de uso sacar dos escenarios diferentes?&lt;div&gt;- En el caso de que este bien este diagrama puede queda un caso de uso asi libre como verificar sensores?&lt;br&gt;&lt;/div&gt;&lt;div&gt;- En el caso de armar alarmas y desarmar alarmas, en el enunciado no especifican como las armas y eso. En el escenario hay que suponer como fucionan?&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="840" width="470" height="150" as="geometry" />
         </mxCell>
         <mxCell id="REY0FhoWWN9jhffk3lGa-48" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="REY0FhoWWN9jhffk3lGa-5" target="REY0FhoWWN9jhffk3lGa-10">
