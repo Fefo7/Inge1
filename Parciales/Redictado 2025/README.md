@@ -1,4 +1,5 @@
-![image.png](attachment:c9d7ec60-1066-4af3-828b-7eb44f8e90ce:image.png)
+!<img width="770" height="525" alt="image" src="https://github.com/user-attachments/assets/0bb697b2-f70f-418c-9ae3-ec456cbcf11c" />
+
 
 - **Solicitar un turno**
     
@@ -85,5 +86,8 @@ Para que un **estudiante** pueda realizar un **préstamo**, debe figurar como **
 Cuando finaliza el recorrido, el **estudiante** debe **devolver la bicicleta** en **cualquier estación disponible**. Para la **devolución** el alumno ingresa su **legajo** y la **bicicleta** y el sistema registra la **devolución**.
 
 Los **administradores del sistema**, además de hacer todo lo que puede hacer un alumno, también pueden **consultar el historial de préstamos** de cualquier alumno y **cargar nuevas bicicletas a una estación**.
+[Casos de uso](https://github.com/fedeisla/Inge1/blob/main/Parciales/Redictado%202025/Escenarios.png)
+<img width="650" height="561" alt="Diagrama" src="https://github.com/user-attachments/assets/bfd07c07-ca47-4d95-aae6-7088dcb48b5a" />
 
-![Diagrama.png](attachment:da703c45-cec6-453e-89ab-b99f16f071fd:Diagrama.png)
+
+
