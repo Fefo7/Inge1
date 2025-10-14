@@ -1,0 +1,212 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Página-1" id="WKb_HMgtFKMyqBK06XoQ">
+    <mxGraphModel dx="1484" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="390" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="53zSPg_NSa0XjmaDGAt6-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-5" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;Se selecciona la opcion &quot;ir a destino&quot; / se muestra las opciones &quot;ultimos encontrados&quot; y &quot;nuevo destino&quot;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="410" width="570" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="53zSPg_NSa0XjmaDGAt6-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-10" value="Se selecciona &quot;ultimos encotrados&quot; /&lt;div&gt;&amp;nbsp;se muestra una lista con los utlimos 5 lugares&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-8">
+          <mxGeometry x="0.2009" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="53zSPg_NSa0XjmaDGAt6-7" target="53zSPg_NSa0XjmaDGAt6-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-12" value="Se selecciona &quot;nuevo destino&quot;/ se muetra el campo &quot;calle&quot; y boton de siguiente" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-11">
+          <mxGeometry x="0.5813" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-7" value="Esperando opcion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="480" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="53zSPg_NSa0XjmaDGAt6-9" target="53zSPg_NSa0XjmaDGAt6-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-27" value="Se selecciono un lugar" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-25">
+          <mxGeometry x="-0.2951" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-9" value="Esperando seleccion de lugar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.468;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="53zSPg_NSa0XjmaDGAt6-13" target="53zSPg_NSa0XjmaDGAt6-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-16" value="Se presiono &amp;lt;siguiente&amp;gt; / se muestra campo &quot;altura&quot; y boton confirmar" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-14">
+          <mxGeometry x="-0.1792" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-13" value="Completando datos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="610" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-15" value="Completando datosfinales" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="710" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="53zSPg_NSa0XjmaDGAt6-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="493" as="targetPoint" />
+            <mxPoint x="730" y="840" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="810" y="840" />
+              <mxPoint x="810" y="490" />
+              <mxPoint x="460" y="490" />
+              <mxPoint x="460" y="493" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-22" value="No se encontro direccion /&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;se informa el error y se retorna a la pantalla incial&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-21">
+          <mxGeometry x="0.5624" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="53zSPg_NSa0XjmaDGAt6-17" target="53zSPg_NSa0XjmaDGAt6-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-28" value="Se encontro ubicacion" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-26">
+          <mxGeometry x="0.0142" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-17" value="Buscando direccion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="820" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.439;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="53zSPg_NSa0XjmaDGAt6-15" target="53zSPg_NSa0XjmaDGAt6-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-19" value="Se presiono &quot;confirmar&quot; / se muestra la direccion ingresada" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-18">
+          <mxGeometry x="0.0061" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="53zSPg_NSa0XjmaDGAt6-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-34" value="Se presiono ir" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-30">
+          <mxGeometry x="-0.3329" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="53zSPg_NSa0XjmaDGAt6-24" target="53zSPg_NSa0XjmaDGAt6-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="880" />
+              <mxPoint x="80" y="492" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-33" value="Se presiono cancelar / se redirige a la pantalla incial" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-32">
+          <mxGeometry x="-0.1486" relative="1" as="geometry">
+            <mxPoint x="30" y="-163" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-24" value="Mostrando mapa de navegacion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="860" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="53zSPg_NSa0XjmaDGAt6-31" target="53zSPg_NSa0XjmaDGAt6-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-37" value="Se piede señal y&lt;div&gt;&amp;nbsp;se incia contador de tiempo en 0&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-36">
+          <mxGeometry x="-0.4139" relative="1" as="geometry">
+            <mxPoint x="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="53zSPg_NSa0XjmaDGAt6-31" target="53zSPg_NSa0XjmaDGAt6-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-70" y="1000" />
+              <mxPoint x="-70" y="460" />
+              <mxPoint x="300" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-61" value="Se presiona &amp;lt;Cancelar navegacion&amp;gt; / se retorna a la pantalla" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-60">
+          <mxGeometry x="-0.2902" y="2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-31" value="Navegando" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="990" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="53zSPg_NSa0XjmaDGAt6-35" target="53zSPg_NSa0XjmaDGAt6-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="990" />
+              <mxPoint x="830" y="460" />
+              <mxPoint x="440" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-47" value="Se intenta restablecer señal [contador = 180s] / se cancela la navegacion" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-45">
+          <mxGeometry x="-0.671" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-35" value="Esperando señal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="970" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="53zSPg_NSa0XjmaDGAt6-35" target="53zSPg_NSa0XjmaDGAt6-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-39" value="&amp;nbsp;se intena restablecer señal [contador &amp;lt; 180s]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-38">
+          <mxGeometry x="-0.3111" y="2" relative="1" as="geometry">
+            <mxPoint x="19" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.951;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="53zSPg_NSa0XjmaDGAt6-35" target="53zSPg_NSa0XjmaDGAt6-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-49" value="Se intenta restablecer señal [contador&amp;lt; 180s]&amp;nbsp;&lt;div&gt;/ se continua con la navegacion&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-48">
+          <mxGeometry x="-0.0081" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="53zSPg_NSa0XjmaDGAt6-31" target="53zSPg_NSa0XjmaDGAt6-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-51" value="actulizar datos de ubicacion [cada 1s]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-50">
+          <mxGeometry x="-0.3852" y="-1" relative="1" as="geometry">
+            <mxPoint x="23" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="53zSPg_NSa0XjmaDGAt6-31" target="53zSPg_NSa0XjmaDGAt6-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="1095" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-59" value="Se llego a destino/ se muestra cartel de llegada" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="53zSPg_NSa0XjmaDGAt6-58">
+          <mxGeometry x="-0.1454" y="3" relative="1" as="geometry">
+            <mxPoint x="18" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="53zSPg_NSa0XjmaDGAt6-57" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1080" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
